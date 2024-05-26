@@ -1,0 +1,10 @@
+infinispan:
+  remote:
+    server-list: alerting-notifier-cdt-cluster.cache.maersk.io
+    sasl-mechanism: PLAIN
+    security:
+      username: developer
+      password: MnZYvtN/kCKlH5daHZlAqw==
+    auth-server-name: infinispan
+    trust-store-file-name: ./cacerts 2
+    trust-store-password: changeit
