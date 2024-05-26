@@ -30,7 +30,7 @@ public class CacheConfig {
         .trustStorePassword("changeit".toCharArray())
         .authentication()
         .username("d")
-        .password("d/kCKlH5daHZlAqw==")
+        .password("d/jh==")
          // Hot Rod clients use intelligence mechanisms to efficiently send requests to Infinispan Server clusters
         .clientIntelligence(ClientIntelligence.BASIC);
         return new RemoteCacheManager(configurationBuilder.build());
